@@ -1,0 +1,30 @@
+# Логи Airflow (не нужны в Git)
+logs/
+
+# Сырые данные (генерируются автоматически)
+data/*.csv
+data/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow.db
+*.pid
